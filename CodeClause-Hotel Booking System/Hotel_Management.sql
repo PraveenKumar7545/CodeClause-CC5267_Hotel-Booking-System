@@ -1,13 +1,6 @@
 CREATE DATABASE hotel_management;
 USE hotel_management;
--- phpMyAdmin SQL Dump
--- version 5.2.1
--- https://www.phpmyadmin.net/
---
--- Host: localhost
--- Generation Time: Mar 16, 2025 at 11:29 AM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.2.4
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -99,7 +92,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`) VALUES
-(1, 'admin', 'admin123');
+(1, 'admin', 'praveen123');
 
 --
 -- Indexes for dumped tables
